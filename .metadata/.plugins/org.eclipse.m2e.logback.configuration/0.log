@@ -1252,3 +1252,15 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2023-04-06 21:24:57,361 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\main\resources
 2023-04-06 21:24:57,367 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-04-06 21:24:57,374 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\test\resources
+2023-04-06 21:28:32,387 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 21:28:32,398 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\main\resources
+2023-04-06 21:28:32,404 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 21:28:32,414 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\test\resources
+2023-04-06 21:28:45,968 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 21:28:45,988 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\main\resources
+2023-04-06 21:28:45,994 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 21:28:46,003 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\test\resources
+2023-04-06 21:28:52,215 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 21:28:52,223 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\main\resources
+2023-04-06 21:28:52,227 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-06 21:28:52,234 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\test\resources
