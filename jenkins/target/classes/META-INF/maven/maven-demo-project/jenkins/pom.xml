@@ -11,14 +11,6 @@
     <name>junit-browserstack</name>
     <url>https://www.github.com/browserstack/junit-browserstack</url>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <surefire.version>3.0.0-M5</surefire.version>
-        <config.file>default</config.file>
-        <tests.default>com/browserstack/SampleTest.java</tests.default>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -64,17 +56,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${surefire.version}</version>
-                <configuration>
-                    <includes>
-                        <include>${tests.default}</include>
-                    </includes>
-                    <argLine>-javaagent:${com.browserstack:browserstack-java-sdk:jar}</argLine>
-                </configuration>
-            </plugin>
+        
         </plugins>
     </build>
 
