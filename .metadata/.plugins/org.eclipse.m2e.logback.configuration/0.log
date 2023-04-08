@@ -1347,3 +1347,12 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2023-04-08 11:28:47,987 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar
 2023-04-08 11:28:48,069 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar
 2023-04-08 11:28:48,070 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar
+2023-04-08 11:54:35,165 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-08 11:54:36,335 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: maven-demo-project:jenkins:0.0.1-SNAPSHOT @ C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\pom.xml.
+2023-04-08 11:54:38,120 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jenkins/src/main/java
+2023-04-08 11:54:38,122 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jenkins/src/test/java
+2023-04-08 11:54:39,240 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2023-04-08 11:54:39,916 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-08 11:54:39,926 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\main\resources
+2023-04-08 11:54:39,937 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-08 11:54:39,948 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\test\resources
