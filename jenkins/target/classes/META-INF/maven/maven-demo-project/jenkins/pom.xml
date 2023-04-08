@@ -56,13 +56,20 @@
                 </executions>
             </plugin>
            
-   
-        <plugin>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-maven-plugin</artifactId>
-        </plugin>
-  
-
+   <plugin>
+<artifactId>maven-jar-plugin</artifactId>
+<version>3.0.2</version>
+<configuration>
+<archive>
+<index>true</index>
+<manifest>
+<addClasspath>true</addClasspath>
+<classpathPrefix>lib/</classpathPrefix>
+<mainClass>com.jenkins.App</mainClass>
+</manifest>
+</archive>
+</configuration>
+</plugin>
             <plugin>
       <artifactId>maven-compiler-plugin</artifactId>
       <version>3.8.0</version>
