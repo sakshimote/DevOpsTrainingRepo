@@ -55,7 +55,14 @@
                     </execution>
                 </executions>
             </plugin>
-            
+           
+   
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+  
+
             <plugin>
       <artifactId>maven-compiler-plugin</artifactId>
       <version>3.8.0</version>
