@@ -1796,3 +1796,8 @@ org.eclipse.core.runtime.CoreException: Launch configuration JUnitCore reference
 2023-04-11 15:11:39,648 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\WebApp\src\main\resources
 2023-04-11 15:11:39,653 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-04-11 15:11:39,653 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\WebApp\src\test\resources
+2023-04-11 16:29:00,602 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-04-11 16:55:11,715 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-11 16:55:11,725 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\WebApp\src\main\resources
+2023-04-11 16:55:11,737 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-11 16:55:11,738 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\WebApp\src\test\resources
