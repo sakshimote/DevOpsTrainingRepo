@@ -1910,3 +1910,6 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references non-
 2023-04-12 13:20:14,287 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\WebAppTomcat\src\main\resources
 2023-04-12 13:20:14,298 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-04-12 13:20:14,298 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\WebAppTomcat\src\test\resources
+2023-04-12 14:52:53,862 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.tomcat:jenkins:0.0.1-SNAPSHOT @ C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\pom.xml.
+2023-04-12 14:52:54,808 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-04-12 14:52:54,809 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\SAKSCHAN\OneDrive - Capgemini\Documents\DevOpsTrainingRepo\jenkins\src\main\resources
