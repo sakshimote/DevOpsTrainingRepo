@@ -5461,3 +5461,92 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 10; Eleme
 
 !ENTRY org.eclipse.ui 2 2 2023-04-12 12:43:47.193
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wst.common.frameworks 4 0 2023-04-12 13:20:12.271
+!MESSAGE org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 10; Element type "web-app" must be declared.
+!STACK 0
+org.eclipse.emf.common.util.WrappedException: org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 10; Element type "web-app" must be declared.
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMRenderer.loadDocument(EMF2DOMRenderer.java:82)
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMRenderer.doLoad(EMF2DOMRenderer.java:63)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.basicDoLoad(TranslatorResourceImpl.java:156)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.doLoad(CompatibilityXMIResourceImpl.java:186)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
+	at org.eclipse.wst.common.internal.emf.resource.CompatibilityXMIResourceImpl.load(CompatibilityXMIResourceImpl.java:277)
+	at org.eclipse.wst.common.internal.emf.resource.TranslatorResourceImpl.load(TranslatorResourceImpl.java:432)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.demandLoad(ProjectResourceSetImpl.java:811)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	at org.eclipse.jem.internal.util.emf.workbench.ProjectResourceSetImpl.getResource(ProjectResourceSetImpl.java:1064)
+	at org.eclipse.wst.common.internal.emfworkbench.WorkbenchResourceHelper.getOrCreateResource(WorkbenchResourceHelper.java:380)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getResource(EditModel.java:684)
+	at org.eclipse.wst.common.componentcore.internal.ArtifactEditModel.getResource(ArtifactEditModel.java:198)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryResource(EditModel.java:1518)
+	at org.eclipse.wst.common.internal.emfworkbench.integration.EditModel.getPrimaryRootObject(EditModel.java:1499)
+	at org.eclipse.wst.common.componentcore.ArtifactEdit.getContentModelRoot(ArtifactEdit.java:567)
+	at org.eclipse.jst.j2ee.componentcore.EnterpriseArtifactEdit.getModelObject(EnterpriseArtifactEdit.java:290)
+	at org.eclipse.jst.j2ee.refactor.operations.ProjectRenameOperation$1.run(ProjectRenameOperation.java:115)
+	at org.eclipse.jst.j2ee.web.componentcore.util.WebArtifactEdit.modify(WebArtifactEdit.java:686)
+	at org.eclipse.jst.j2ee.refactor.operations.ProjectRenameOperation.updateProject(ProjectRenameOperation.java:112)
+	at org.eclipse.jst.j2ee.refactor.operations.ProjectRefactorOperation.execute(ProjectRefactorOperation.java:56)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl$1.run(DataModelPausibleOperationImpl.java:385)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2380)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2405)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:410)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.runOperation(DataModelPausibleOperationImpl.java:360)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.doExecute(DataModelPausibleOperationImpl.java:247)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.executeImpl(DataModelPausibleOperationImpl.java:219)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.cacheThreadAndContinue(DataModelPausibleOperationImpl.java:89)
+	at org.eclipse.wst.common.frameworks.internal.datamodel.DataModelPausibleOperationImpl.execute(DataModelPausibleOperationImpl.java:207)
+	at org.eclipse.jst.j2ee.refactor.listeners.ProjectRefactoringListener$1.runInWorkspace(ProjectRefactoringListener.java:198)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 5; columnNumber: 10; Element type "web-app" must be declared.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleStartElement(XMLDTDValidator.java:1835)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.startElement(XMLDTDValidator.java:728)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:374)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(XMLNSDocumentScannerImpl.java:613)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3079)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:836)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:247)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:342)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+	at org.eclipse.wst.common.internal.emf.utilities.DOMUtilities.loadDocument(DOMUtilities.java:560)
+	at org.eclipse.wst.common.internal.emf.resource.EMF2DOMRenderer.loadDocument(EMF2DOMRenderer.java:75)
+	... 34 more
+
+!ENTRY org.eclipse.wst.validation 4 0 2023-04-12 13:20:14.399
+!MESSAGE CHKJ3000E: WAR Validation Failed: org.eclipse.jst.j2ee.commonarchivecore.internal.exception.DeploymentDescriptorLoadException: WEB-INF/web.xml
+!STACK 0
+org.eclipse.wst.validation.internal.core.ValidationException: CHKJ3000E: WAR Validation Failed: org.eclipse.jst.j2ee.commonarchivecore.internal.exception.DeploymentDescriptorLoadException: WEB-INF/web.xml
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:349)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.validation 4 0 2023-04-12 13:20:14.409
+!MESSAGE WEB-INF/web.xml
+!STACK 0
+org.eclipse.jst.j2ee.commonarchivecore.internal.exception.DeploymentDescriptorLoadException: WEB-INF/web.xml
+Stack trace of nested exception:
+org.eclipse.jst.j2ee.commonarchivecore.internal.exception.EmptyResourceException: platform:/resource/WebAppTomcat/src/main/webapp/WEB-INF/web.xml
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.util.ArchiveUtil.getRoot(ArchiveUtil.java:442)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.strategy.XmlBasedImportStrategyImpl.primLoadDeploymentDescriptor(XmlBasedImportStrategyImpl.java:42)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.strategy.War22ImportStrategyImpl.loadDeploymentDescriptor(War22ImportStrategyImpl.java:90)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.strategy.War22ImportStrategyImpl.importMetaData(War22ImportStrategyImpl.java:84)
+	at org.eclipse.jst.j2ee.commonarchivecore.internal.impl.WARFileImpl.getDeploymentDescriptor(WARFileImpl.java:146)
+	at org.eclipse.jst.j2ee.model.internal.validation.WarValidator.validateInJob(WarValidator.java:334)
+	at org.eclipse.jst.j2ee.internal.web.validation.UIWarValidator.validateInJob(UIWarValidator.java:113)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
