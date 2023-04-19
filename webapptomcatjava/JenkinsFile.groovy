@@ -14,7 +14,7 @@ pipeline {
         }
             stage('Deploy in Staging Environment'){
                 steps{
-                    build job:'deploy_application_staging_environment'
+                    echo "not deploying sed life!!!"
                 }
             }
 
