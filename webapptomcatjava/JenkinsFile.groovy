@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Application') {
             steps {
-                sh 'mvn -f webapptomcatjava/pom.xml package'
+                sh 'mvn -f webapptomcatjava/pom.xml test package'
             }
             post {
                 success {
@@ -14,7 +14,14 @@ pipeline {
         }
             stage('Deploy in Staging Environment'){
                 steps{
-                     build job:'deploy_application_staging_environment'
+                    // build job:'deploy_application_staging_environment'
+                    echo "deploy application in staging"
+                }
+            }
+
+            stage('Deploy in prod environment'){
+                steps{
+                    echo "deploy application in production"
                 }
             }
 
