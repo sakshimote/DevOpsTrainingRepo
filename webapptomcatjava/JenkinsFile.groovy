@@ -3,18 +3,18 @@ pipeline {
     stages {
         stage('Build Application') {
             steps {
-                sh 'mvn -f webapptomcatjava/pom.xml package'
+                sh 'mvn -f webapptomcatjava/pom.xml test'
             }
             post {
                 success {
                     echo "Now Archiving the Artifacts...."
-                    archiveArtifacts artifacts: '**/*.war'
+                   archiveArtifacts artifacts: '**/*.war'
                 }
             }
         }
             stage('Deploy in Staging Environment'){
                 steps{
-                   build job:'deploy_application_staging_environment'
+                 //  build job:'deploy_application_staging_environment'
                     echo "deploy application in staging"
                 }
             }
