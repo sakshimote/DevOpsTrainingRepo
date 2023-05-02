@@ -14,7 +14,7 @@ pipeline {
         }
             stage('Deploy in Staging Environment'){
                 steps{
-                 //  build job:'deploy_application_staging_environment'
+                   build job:'deploy_application_staging_environment'
                     echo "deploy application in staging"
                 }
             }
