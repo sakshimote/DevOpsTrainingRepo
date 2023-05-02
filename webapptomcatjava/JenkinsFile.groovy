@@ -21,6 +21,7 @@ pipeline {
 
             stage('Deploy in prod environment'){
                 steps{
+                build job:'deploy_application_prod_environment'
                     echo "deploy application in production"
                 }
             }
